@@ -5723,6 +5723,11 @@ body,
 
 .maestro {
   padding: 3%; }
+  .maestro h2 {
+    text-align: center;
+    margin-bottom: 3%; }
+  .maestro h6 {
+    padding: 0 14% 3%; }
   .maestro .row {
     margin-bottom: 1%; }
     .maestro .row .overlay img {
