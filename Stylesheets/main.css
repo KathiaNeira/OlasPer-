@@ -5626,6 +5626,9 @@ body,
 .container-fluid {
   height: 100%; }
 
+p {
+  font-family: 'Roboto', sans-serif; }
+
 .container-fluid {
   padding-left: 0;
   padding-right: 0; }
@@ -5639,7 +5642,11 @@ body,
   background-size: cover;
   color: white; }
   .portada h1 {
-    font-weight: bold; }
+    font-weight: bold;
+    font-family: 'Lobster', cursive; }
+  .portada p {
+    font-size: 30px;
+    margin-bottom: 3%; }
 
 .text-vertical-center {
   display: table-cell;
@@ -5688,6 +5695,17 @@ body,
   margin-right: 0; }
   .row .col-md-6 {
     padding: 6%; }
+    .row .col-md-6 .video-clases {
+      padding-top: 8%; }
+    .row .col-md-6 .texto1 h2 {
+      font-family: 'Lobster', cursive;
+      margin-bottom: 5%;
+      font-size: 40px;
+      color: #fc1f30; }
+    .row .col-md-6 .texto1 p {
+      line-height: 25px;
+      font-weight: 500;
+      color: gray; }
 
 .thumbnail {
   border: none; }
@@ -5696,17 +5714,20 @@ body,
 
 .thumbnail,
 .clases {
-  background-color: #1c1d1c; }
+  background-color: #575757; }
 
 .clases {
   padding: 5%; }
   .clases h2 {
     color: white;
     text-align: center;
-    margin-bottom: 3%; }
+    margin-bottom: 3%;
+    font-family: 'Lobster', cursive; }
 
-.foto img {
-  width: 100%; }
+.foto {
+  padding-bottom: 10%; }
+  .foto img {
+    width: 100%; }
 
 .cs {
   padding: 0 15%;
@@ -5717,16 +5738,23 @@ body,
     text-align: center; }
   .cs p {
     color: white;
-    text-align: center; }
+    text-align: center;
+    padding: 3% 6% 7%; }
   .cs a {
-    position: relative; }
+    position: relative;
+    margin-top: 10%;
+    padding: 8px 35px;
+    font-size: 20px; }
+  .cs h4 {
+    visibility: visible !important; }
 
 .maestro {
   padding: 3%; }
   .maestro h2 {
     text-align: center;
-    margin-bottom: 3%; }
-  .maestro h6 {
+    margin-bottom: 3%;
+    font-family: 'Lobster', cursive; }
+  .maestro p {
     padding: 0 14% 3%; }
   .maestro .row {
     margin-bottom: 1%; }
@@ -5756,5 +5784,61 @@ body,
 .footer {
   background-color: black;
   padding: 2%; }
+
+span,
+h4 {
+  font-family: 'Open Sans', sans-serif;
+  visibility: hidden;
+  color: white; }
+
+.surfista {
+  top: 46%;
+  position: relative;
+  text-align: center; }
+
+.overlay:hover span,
+.overlay:hover h4 {
+  visibility: visible; }
+
+.overlay {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  /*padding: 0 1px;*/ }
+
+.overlay:hover {
+  background-color: rgba(223, 205, 24, 0.3); }
+
+.grid img {
+  width: 100%; }
+
+.imagen {
+  position: relative; }
+
+.grid .imagenes {
+  float: left;
+  padding: 1px; }
+
+/*fin de equipo*/
+.imagene h3 {
+  padding-bottom: 8%;
+  padding-top: 10%;
+  text-align: center;
+  font-family: inherit; }
+
+.titulo h2 {
+  font-size: 2em;
+  color: white; }
+
+.nosotros h3 {
+  font-size: 2em; }
+
+.nosotros p {
+  font-size: 1em;
+  font-family: inherit; }
+
+h4 {
+  font-size: 1.5em; }
 
 /*# sourceMappingURL=main.css.map */
